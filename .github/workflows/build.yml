@@ -42,7 +42,7 @@ jobs:
           libltdl-dev \
           gcc-multilib \
           g++-multilib \
-          glibc-dev:i386 \
+          lib32c6-dev \
           lib32z1-dev
 
     - name: Install Buildozer and Cython
