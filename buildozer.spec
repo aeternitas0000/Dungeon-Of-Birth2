@@ -10,8 +10,9 @@ version = 0.1
 
 requirements = python3,pygame
 
-orientation = portrait
+orientation = landscape
 fullscreen = 0
 
-android.api = 33
+android.api = 34
 android.minapi = 24
+android.accept_sdk_license = True
