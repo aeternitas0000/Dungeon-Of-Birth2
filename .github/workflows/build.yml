@@ -39,7 +39,11 @@ jobs:
           unzip \
           zip \
           autoconf \
-          libltdl-dev
+          libltdl-dev \
+          gcc-multilib \
+          g++-multilib \
+          glibc-dev:i386 \
+          lib32z1-dev
 
     - name: Install Buildozer and Cython
       run: |
