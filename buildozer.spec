@@ -8,7 +8,7 @@ source.include_exts = py,png,mp3
 
 version = 0.1
 
-requirements = python3==3.12,pygame>=2.6.0
+requirements = python3==3.14.2,pygame>=2.6.0
 
 orientation = landscape
 fullscreen = 0
